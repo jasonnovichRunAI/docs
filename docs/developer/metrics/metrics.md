@@ -1,6 +1,11 @@
 
  <!-- Tables in this doc were generated using:  https://tabletomarkdown,com/convert-spreadsheet-to-markdown/ -->
 
+<!-- TODO All red metrics are not documented today and Jason should ignore them -->
+<!-- TODO All orange metrics are currently documented and are removed in 2.13. Some of them have replacement which should be documented. -->
+<!-- TODO Need to add an “Important” note saying that this kind of API will be replaced with REST API in the future and it is going away -->
+<!-- TODO https://docs.google.com/spreadsheets/d/1Lgpbak3J3Vf6oWtFeqPYMprGztjksf-f6GsNqVwRRaQ/edit#gid=1706639670 -->
+ 
 ## What are Metrics
 
 [Metrics](https://prometheus.io/docs/introduction/overview/#what-are-metrics){target=_blank} are numeric measurements recorded __over time__ that are emitted from the Run:ai cluster. Typical metrics involve utilization, allocation, time measurements and so on. Metrics are used in Run:ai dashboards as well as in the Run:ai administration user interface. 
@@ -9,9 +14,7 @@ The purpose of this document is to detail the structure and purpose of metrics e
 
 Run:ai uses [Prometheus](https://prometheus.io){target=_blank} for collecting and querying metrics.
 
-
-##  Published Run:ai Metrics
-
+## Published Run:ai Metrics
 
 Following is the list of published Run:ai metrics:
 
