@@ -21,7 +21,7 @@ The Credential manager in the Run:ai environment supports 4 types of credentials
 
 ### Docker registry
 
-1. Go to `Settings | Credentials`.
+1. Go to `Settings` ![Settings](img/settings-icon.png) then `Credentials`.
 2. Press `New Credentials`.
 3. Select `Docker registry`.
 4. In the `Project` field, select a project from the drop down.
