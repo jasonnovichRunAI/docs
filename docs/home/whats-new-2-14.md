@@ -10,7 +10,7 @@ August 2023
 
 <!-- TODO RBAC placeholder -->
 
-The left menu `Settings` has been removed. Settings can now be found on the top bar using the Settings ![](../admin/admin-ui-setup/img/settings-icon.png) icon.
+The left menu `Settings` has been removed. Settings can now be found on the top bar using the Settings ![](../../docs/admin/admin-ui-setup/img/tools-and-settings-icon.svg) icon.
 
 #### Fixed issues
 
