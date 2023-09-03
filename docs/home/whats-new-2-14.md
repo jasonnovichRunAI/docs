@@ -6,13 +6,13 @@
 
 August 2023
 
-#### Release content
-
-This version contains features and fixes from previous versions. Refer to the prior versions for specific features and fixes. For information about features, functionality, and fixed issues in previous versions see:
+<!-- This version contains features and fixes from previous versions. Refer to the prior versions for specific features and fixes. For information about features, functionality, and fixed issues in previous versions see:
 
 * [What's new 2.13](whats-new-2-13.md)
 * [What's new 2.12](whats-new-2-12.md)
 * [What's new 2.10](whats-new-2-10.md)
+-->
+#### New Features
 
 ##### Role based access control
 <!-- RUN-7510/9002 and lots of others -->
@@ -33,13 +33,15 @@ TODO Add RBAC old--new conversion table here. -->
 <!-- RUN-9808/RUN-9810 Show effective project policy from the UI 
 * We are pleased to announce an enhancement to the Projects table where users now have the ability to view policies from within a project. For more information, see [Projects](). -->
 
-##### Ephemeral volumes
-<!--RUN-9958/RUN-10061 Ephemeral volumes in workspaces -->
-* We are pleased to announce support for Ephemeral volumes in *Workspaces*. Ephemeral storage is tied to the lifecycle of the *Workspace*. It’s temporary storage that gets wiped out and lost when the workspace is deleted. Ephemeral storage is added to the *Workspace* configuration form in the *Volume* pane. For configuration information, see step 7 in [Create a new workspace](../Researcher/user-interface/workspaces/create/.workspace-v2.md#create-a-new-workspace).
-
 ##### Email notifications
 <!-- RUN-9868/RUN-10087 support per user scheduling events notifications (slack/email) -->
 * We are pleased to announce new functionality where users can now receive notifications from scheduling events. Researchers using Run:ai can now receive notifications via email and is configured so that each user will only get the events relevant to their workloads. For more information, see [email notifications](../admin/researcher-setup/email-messaging.md#email-notifications).
+
+#### Improvements
+
+##### Ephemeral volumes
+<!--RUN-9958/RUN-10061 Ephemeral volumes in workspaces -->
+* We are pleased to announce support for Ephemeral volumes in *Workspaces*. Ephemeral storage is tied to the lifecycle of the *Workspace*. It’s temporary storage that gets wiped out and lost when the workspace is deleted. Ephemeral storage is added to the *Workspace* configuration form in the *Volume* pane. For configuration information, see step 7 in [Create a new workspace](../Researcher/user-interface/workspaces/create/.workspace-v2.md#create-a-new-workspace).
 
 ##### CLI improvements
 <!-- RUN-10335/RUN-10510 Node port command line -->
@@ -69,6 +71,11 @@ TODO Add RBAC old--new conversion table here. -->
               3. Select an *Effect* from the drop down menu.
               4. Enter a *Value* and *Toleration seconds* (optional).
         5. When your form is complete press *Deploy*.
+
+#### Known issues
+
+| Internal ID | Description  |
+| ---------------------------- | ---- |
 
 #### Fixed issues
 
