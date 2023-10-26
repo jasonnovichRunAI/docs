@@ -1,4 +1,5 @@
 # Create a new workspace
+
 A Workspace is assigned to a project and is affected by the project’s quota just like any other workload. A workspace is shared with all project members for collaboration.
 
 To create a new workspace:
@@ -21,7 +22,7 @@ To create a new workspace:
       2. Press *Environment variable* to add an environment variable. Press again if you need more environments variables.
 
 6. Select a compute resource from the tiles. If your compute resource is not listed, use the *Search compute resources* box to find it. Press *New compute resource* to create a compute resource if needed.
-7. Open the *Volume* pane, and press *Volume* to add a volume to your workspace.
+7. (Optional) Open the *Volume* pane, and press *Volume* to add a volume to your workspace.
 
       1. Select the *Storage class* from the dropdown.
       2. Select the *Access mode* from the dropdown.
@@ -30,8 +31,8 @@ To create a new workspace:
       5. Enter the *Container path* for volume target location.
       6. Select a *Volume persistency*. Choose from *Persistent* or *Ephemeral*.
 
-8. Select a data source from the tiles. If your data source is not listed, use the *Search compute resources* box to find it. Press *New data source* to create a new data source if needed.
-9. In the *General* pane, add special settings for your workspace:
+8. (Optional) Select a data source from the tiles. If your data source is not listed, use the *Search compute resources* box to find it. Press *New data source* to create a new data source if needed.
+9. (Optional) In the *General* pane, add special settings for your workspace:
 
       1. Press *Auto-deletion* to delete the workspace automatically when it either completes or fails. You can configure the timeframe in days, hours, minuets, and seconds. If the timeframe is set to 0, the workspace will be deleted immediately after it completes or fails.
       2. Press *Annotation* to a name and value to annotate the workspace. Repeat this step to add multiple annotations.
