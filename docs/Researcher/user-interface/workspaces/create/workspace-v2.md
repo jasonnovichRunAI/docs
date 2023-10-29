@@ -18,8 +18,8 @@ To create a new workspace:
 4. Enter a name for your workspace and press *Continue*.
 5. Select an environment from the tiles. If your environment is not listed, use the *Search environments* box to find it. Press *New environment* to create an environment if needed.
 
-      1. Press *Commands and Arguments* to add special commands and arguments to your environment selection.
-      2. Press *Environment variable* to add an environment variable. Press again if you need more environments variables.
+      1. Press *Commands and Arguments* to add or edit special commands and arguments to your environment selection.
+      2. Press *Environment variable* to add or edit an environment variable. Press again if you need more environment variables.
 
 6. Select a compute resource from the tiles. If your compute resource is not listed, use the *Search compute resources* box to find it. Press *New compute resource* to create a compute resource if needed.
 7. (Optional) Open the *Volume* pane, and press *Volume* to add a volume to your workspace.
