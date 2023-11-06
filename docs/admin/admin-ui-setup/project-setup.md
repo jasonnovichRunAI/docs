@@ -51,11 +51,11 @@ As an administrator, you may want to disconnect the two parameters. So, for exam
 3. Enter a *Project name*. Press *Namespace* to set the namespace associated with the project. You can either create the namespace from the project name (default) or enter an existing namespace.
 4. In *Quota management*, configure the node pool priority (if editable), the GPUs, CPUs, CPU memory, and Over-quota priority settings. Configure the following:
 
-       * *Order of priority*&mdash;the priority the node pool will receive when trying to schedule workloads. For more information, see [Node pool priority](../../Researcher/scheduling/using-node-pools.md#multiple-node-pools-selection).
-       * *GPUs*&mdash;the number of GPUs in the node pool. Press *GPUs* and enter the number of GPUs, then press *Apply* to save.
-       * *CPUs(Cores)*&mdash;the number of CPU cores in the node pool. Press *CPUs* and enter the number of GPUs, then press *Apply* to save.
-       * *CPU Memory*&mdash;the amount of memory the CPUs will be allocated. Press *CPU Memory*, enter an amount of memory, then press *Apply* to save.
-       * Over-quota priority&mdash;the priority for the specific node pool to receive over-quota allocations.
+    * *Order of priority*&mdash;the priority the node pool will receive when trying to schedule workloads. For more information, see [Node pool priority](../../Researcher/scheduling/using-node-pools.md#multiple-node-pools-selection).
+    * *GPUs*&mdash;the number of GPUs in the node pool. Press *GPUs* and enter the number of GPUs, then press *Apply* to save.
+    * *CPUs(Cores)*&mdash;the number of CPU cores in the node pool. Press *CPUs* and enter the number of GPUs, then press *Apply* to save.
+    * *CPU Memory*&mdash;the amount of memory the CPUs will be allocated. Press *CPU Memory*, enter an amount of memory, then press *Apply* to save.
+    * Over-quota priority&mdash;the priority for the specific node pool to receive over-quota allocations.
   
 5. (Optional) In the *Scheduling rules* pane, use the dropdown arrow to open the pane. Press on the *+ Rule* button to add a new rule to the project. Add one (or more) of the following rule types:
 
