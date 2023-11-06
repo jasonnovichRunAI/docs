@@ -13,7 +13,7 @@ Run:ai provides the ability to run, manage, and view Distributed Training worklo
 To complete this Quickstart you must have:
 
 * Run:ai software installed on your Kubernetes cluster. See: [Installing Run:ai on a Kubernetes Cluster](../../admin/runai-setup/installation-types.md)
-* During the installation, you have installed the Kubeflow MPI Operator as specified [here](../../../admin/runai-setup/cluster-setup/cluster-prerequisites/#distributed-training-via-kubeflow-mpi)
+* During the installation, you have installed the Kubeflow MPI Operator as specified [here](../../admin/runai-setup/cluster-setup/cluster-prerequisites.md#distributed-training)
 * Run:ai CLI installed on your machine. See: [Installing the Run:ai Command-Line Interface](../../admin/researcher-setup/cli-install.md)
 
 ## Step by Step Walkthrough

@@ -132,11 +132,11 @@ This feature provides configuration for credentials that are used to unlock prot
 
 **SSO custom URL logout**
 
-This feature configures a custom logout URL in your tenant. For configuration information, see [SSO UI Configuration](../admin/runai-setup/authentication/sso.md#logout-url).
+This feature configures a custom logout URL in your tenant. For configuration information, see [SSO UI Configuration](../admin/runai-setup/authentication/sso.md#step-1-ui-configuration).
 
 **Department Administrator**
 
-The new role of *Department Administrator* adds a layer of delegation in the administration of departments. For an explanation of the role, see [Create a user](../admin/admin-ui-setup/admin-ui-users.md#create-a-user). For Department configuration information, see [Assigning the Department Administrator role](../admin/admin-ui-setup/department-setup.md#assign-department-administrator-role).
+The new role of *Department Administrator* adds a layer of delegation in the administration of departments. For an explanation of the role, see [Create a user](../admin/admin-ui-setup/admin-ui-users.md#create-a-user). For Department configuration information, see [Assigning the Department Administrator role](../admin/admin-ui-setup/department-setup.md#assigning-department-administrator-role).
 
 **Enable SSO Using OIDC**
 
@@ -180,7 +180,7 @@ Added feature to leverage [Placement Groups](https://docs.aws.amazon.com/AWSEC2/
 
 **Job Status Notifications**
 
-Added the capability to send job statuses notifications to Slack. For configuration information, see [Event Router](../admin/integration/messaging.md).
+Added the capability to send job statuses notifications to Slack. For configuration information, see [Event Router](admin/integration/messaging.md).
 
 ### Storage
 
@@ -190,7 +190,7 @@ Added the ability to use cluster wide PVCs. A PersistentVolumeClaim (PVC) is a r
 
 **Ephemeral PVC**
 
-Added support Ephemeral PVC in CLI and in the job submission form. For more information, see CLI reference [runai submit](../Researcher/cli-reference/runai-submit.md#-pvc-exist-string).
+Added support Ephemeral PVC in CLI and in the job submission form. For more information, see CLI reference [runai submit](../Researcher/cli-reference/runai-submit.md).
 
 ## Known issues
 
