@@ -65,7 +65,6 @@ date: 2023-Dec-4
 
 #### OpenShift Support
 
-
 * <!-- TODO ADDLINK RUN-11787/RUN-11788 Support new Kubernetes and OpenShift releases - Yaron updated this - send to preqs page. -->Updated installation prequisites. For more information, see [Supported Kubernetes Versions](../admin/runai-setup/cluster-setup/cluster-prerequisites.md#kubernetes).
 
 ----------------------------------------------------
